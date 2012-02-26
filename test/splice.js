@@ -4,7 +4,6 @@ TestCase('ArrayTest', {
     var result = arr.splice(2, 2);
 
     assertEquals([1, 2, 5], arr);
-
-    assertEquals( arr, result );
+    assertEquals( [3, 4] , result );
   }
 });
